@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DemoTest">
+
+
+	<test name="showReport">
+		<classes>
+			<class name="twm_Test.SanityTest">
+				<methods>
+					<include name="DOT_3631_validate_age_gate_no" />
+					<exclude name="DOT_3594_validate_age_gate" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

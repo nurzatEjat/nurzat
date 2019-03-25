@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="showReport(failed)">
+    <classes>
+      <class name="twm_Test.SanityTest">
+        <methods>
+          <include name="startTest"/>
+          <include name="endTest"/>
+          <include name="DOT_3631_validate_age_gate_no"/>
+        </methods>
+      </class> <!-- twm_Test.SanityTest -->
+    </classes>
+  </test> <!-- showReport(failed) -->
+</suite> <!-- Failed suite [DemoTest] -->
