@@ -30,7 +30,7 @@ public class UrlTest extends BasePage {
 	@Test(dataProvider="getUrl")
 	public void testUrlByDataProvider(Object url) {
 		System.out.println("******"+url.toString());
-		lib.openUrl(url.toString());
+		lib.openUrl(url.toString()); 
 		gate.verifyAgeGateDisplay();
 		lib.customWait(2);
 	}
